@@ -4,3 +4,26 @@
     --bs-body-gd: #faf9f6;
     --bs-body-font-family: 'Space Grotesk', sans-serif;
 }
+
+/* Main Header */
+.header{
+    z-index: 2;
+}
+
+/* Navigation Bar */
+#navbar{
+ position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background-color: #faf9f6;
+z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn{
+    position: absolute;
+    top: 20px;
+    right: 16px;
+
+}
