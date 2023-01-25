@@ -5,6 +5,10 @@
     --bs-body-font-family: 'Space Grotesk', sans-serif;
 }
 
+a{ color: var(--primary-color)}
+a:hover { color: var(--primary-color-highlight)}
+
+
 /* Main Header */
 .header{
     z-index: 2;
@@ -26,4 +30,9 @@ z-index: 4;
     top: 20px;
     right: 16px;
 
+}
+
+.dropdown-nav__container{
+    height: 100vh;
+    padding: 0 1rem;
 }
